@@ -6,6 +6,7 @@
 
 header, main, footer {
     width: 80%;
+    margin: 0 auto;
 }
 
 .flex {
@@ -55,4 +56,55 @@ div#divicone {
     justify-content: center;
     top: 170px;
     position: absolute;
+}
+
+fieldset {
+    padding: 5px;
+    width: 40%;
+    border: 2px solid darkgray;
+    margin: 0 auto;
+    height: 400px;
+}
+
+section {
+    width: 100%;
+    height: 400px;
+    margin: 40px auto;
+}
+
+legend {
+    text-align: center;
+}
+
+label {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    font-family: 'Comic Neue', cursive;
+}
+
+.txt {
+    width: 100%;
+    height: 30px;
+    font-family: 'Comic Neue', cursive;
+}
+
+div#divform {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#buscar {
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgb(0, 77, 64);
+    color: azure;
+    padding: 10px;
+    box-shadow: 3px 3px 3px rgba(33, 33, 33, 0.6);
+    font-family: 'Comic Neue', cursive;
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.380);
 }

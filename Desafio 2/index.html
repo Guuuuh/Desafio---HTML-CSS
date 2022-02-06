@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@200&family=Rubik&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
@@ -25,11 +29,32 @@
         </div>
     </header>
     <main>
-        <form action="">
-            <fieldset>
-                
-            </fieldset>
-        </form>
+        <section>
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Insira os Dados</legend>
+                    <div id="divform">
+
+                    <label for="CEP"><strong>CEP:</strong></label>
+                    <input type="text" required placeholder="Insira o CEP sem o hífen" class="txt" name="CEP" value="" id="CEP">
+
+                    <label for="rua"><strong> Rua/Avenida: </strong></label>
+                    <input type="text" required placeholder="Apenas o Nome da Rua/Avenida" class="txt" name="rua" id="rua">
+
+                    <label for="bairro"><strong> Bairro: </strong></label>
+                    <input type="text" required placeholder="Insira o nome do Bairro sem Acentuação" class="txt" name="bairro" id="bairro">
+
+                    <label for="cidade"><strong> Cidade: </strong></label>
+                    <input type="text" required placeholder="Insira a Cidade sem Acentuação" class="txt" name="cidade" id="cidade">
+
+                    <label for="estado"><strong> Estado: </strong></label>
+                    <input type="text" required placeholder="Insira o Estado, ou apenas a Sigla" class="txt" name="estado" id="estado">
+
+                    <input id="buscar" type="submit" value="BUSCAR">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
     </main>
     <footer></footer>
     
