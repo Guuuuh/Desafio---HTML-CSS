@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main, footer {
+    width: 80%;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    height: 200px;
+    background-color: rgb(0, 77, 64);
+}
+
+h1 {
+    color: azure;
+    margin: 30px auto;
+}
+
+h2 {
+    color: azure;
+    margin: 10px auto;
+}
